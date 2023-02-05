@@ -46,18 +46,116 @@ a img {
 }
 /* END RESET*/
 
+/* グローバルスタイル */
+body {
+  font-family: helvetica, arial, sans;
+}
+
+h1 {
+  font-size: 7vw;
+  margin-top: 0;
+}
+a {
+  color: #f00;
+}
+
+h2 ~ p {
+  font-size: 0.8em;
+  margin: 1em auto 0;
+  max-width: 70%;
+  text-align: center;
+}
+
+
+/*　ヘッダースタイル*/
+
+.header {
+  background-color: #FFFFFF;
+  color: #fff;
+  position: fixed;
+  width: 100%;
+  z-index: 20;
+}
+
+.header-logo {
+  background-color: #000;
+  box-sizing: border-box;
+  display: block;
+  height: 10vh;
+  padding-top: 10px;
+  position: relative;
+  text-align: center;
+  width: 10vh;
+}
+
+
+.header-logo img {
+  width: 4.3vh;
+}
+
+.header-nav {
+  float: right;
+  padding: 5.5vh 60px 0 0;
+}
+.header-nav > li {
+  display: inline-block;
+  margin-left: 1em;
+}
+
+.header-nav a {
+  color: #000;
+}
+
+.nav-links a {
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.header-nav a:hover,
+.header-nav a:active {
+  color: #ed6e2f;
+}
+
+
+.header-logo:hover,
+.header-logo:active {
+  opacity: 0.5;
+}
+
+/* フッタースタイル */
+.footer {
+  background-color: #3B4043;
+  padding: 10vh 0 15vh;
+  text-align: center;
+}
+.footer-logo img {
+  width: 50px;
+}
+.footer h3 {
+  color: #fff;
+  padding-top: 1.5em;
+}
+
+.footer-nav li {
+  display: inline-block;
+  margin: 2em 1em 0;
+}
+.footer-nav a {
+  color: #FFFFFF;
+}
+
+
+
+
 /* ヒーロースタイル */
 .full-hero {
   background-color: #F6F0E8;
   height: 50vh;
 }
 
-h2 {
-  font-size: 30px;
-}
 
 /* SNSスタイル */
-
 .social-link {
   color: blue;
   display: inline-block;
